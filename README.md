@@ -7,24 +7,24 @@
 
 - download repo
 - in the root directory install the virtual env of your choice (pipenv or venv) and all the packages, e.g.:
-    - pip install pipenv
-    - pipenv shell
-    - pipenv install
+    - `pip install pipenv`
+    - `pipenv shell`
+    - `pipenv install`
 - navigate into /frontend directory
-    - npm install
+    - `npm install`
 - setup the database (download sqlite)
     - navigate into /frontend/api 
-    - start python interactive environment (command: 'python')
-    - 'from app import db'
-    - 'db.create_all()'
-    - 'exit()'
+    - start python interactive environment (command: '`python`')
+    - `from app import db`
+    - `db.create_all()`
+    - `exit()`
 - run servers:
-    - concurrenly:
+    - concurrently:
         - go into /frontend
-        - npm start 
+        - `npm start` 
     - seperately:
-        - in /frontend: npm run frontend
-        - in /frontend/api: flask run
+        - in /frontend: `npm run frontend`
+        - in /frontend: `npm run backend`
 
 ### About Trippy
 
